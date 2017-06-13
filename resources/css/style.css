@@ -11,7 +11,8 @@ header {
   background-image: url(../images/glasses-bg.png);
   height: 30rem;
   background-size: cover;
-  top: 0;
+  position: relative;
+  top: -3.5rem;
 }
 
 .logo img {
@@ -33,7 +34,9 @@ header {
   color: white;
   padding: 1rem 2rem;
   align-items: center;
-  order: 1;
+  position: relative;
+  top: 1rem;
+  z-index: 10;
 }
 
 .top-line nav {
@@ -45,4 +48,21 @@ nav a {
   text-decoration: none;
   color: white;
   padding-left: 2rem;
+}
+
+.banner-text {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  display: inline-block;
+  margin-top: 14rem;
+  /*position: relative;
+  right: -5rem;*/
+  float: right;
+}
+
+.banner-text h2 {
+  padding: 1.5rem 5rem;
+
 }
